@@ -1,4 +1,3 @@
-// https://api.openweathermap.org/data/2.5/forecast?q=Jakarta&appid=b11964ad9151b0dc00a8877b1a7c4fea&units=metric
 require('dotenv').config()
 const moment = require('moment')
 const URL = `https://api.openweathermap.org/data/2.5/forecast?q=Jakarta&units=metric&appid=` + process.env.SECRET

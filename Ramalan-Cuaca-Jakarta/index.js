@@ -7,6 +7,7 @@ async function getData() {
         method: 'GET'
     })
     const data = await response.json()
+    console.log('Weather Forecast:')
     return data;
 }
 
